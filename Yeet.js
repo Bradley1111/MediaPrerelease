@@ -14,7 +14,8 @@ function draw() {
   fill(255,255,255)
 	rect(x,y,50,50)
 	background(0,100,0);
-			
+	 text('unmute',100,100)	
+	text('me',150,100)
 	fill(255,224,189)
 	ellipse(x +27,y -20,40,40)//head
 	fill(0,105,255)
