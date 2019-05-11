@@ -42,7 +42,7 @@ function draw() {
   else { ls = [255,255,255]}
     
  mousePressed = function() { if (mouseX >= 100 && mouseX <= 200 &&
-        mouseY >= 500 && mouseY <= 550) {mc = 3}}
+        mouseY >= 500 && mouseY <= 550) {mc = 2}}
                             
                       
   
