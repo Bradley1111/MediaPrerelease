@@ -12,6 +12,7 @@ bc = 'No'
 inv1 = 2
 inv2 = 1
 inv3 = 1
+lbr = 2
 
 function setup() {
   createCanvas(940, 810);
@@ -41,7 +42,7 @@ function draw() {
   else { ls = [255,255,255]}
     
  mousePressed = function() { if (mouseX >= 100 && mouseX <= 200 &&
-        mouseY >= 500 && mouseY <= 550) {mc = 2}}
+        mouseY >= 500 && mouseY <= 550) {mc = 3}}
                             
                       
   
@@ -122,7 +123,9 @@ if (px +20 > 400) { px = px -10}
                  fill(255,255,255)
                  rect(px,py,20,20) 
             fill(255,0,0)
-            rect(libx,liby,20,20)
+           if (lbr === 1)
+               {fill(255,0,0)
+                 rect(libx,liby,20,20)}
                  
          if (keyCode === UP_ARROW) {py = py -1}
          if (keyCode === DOWN_ARROW) {py = py +1}
@@ -148,5 +151,43 @@ if (px +20 > 400) { px = px -10}
                  
                  mt = mt + muc     
         if (mt === 200) {keyCode = 'q'
-                                                                                                                            mt = 0}}
-}    
+                                                                                                                            mt = 0}
+                
+                 fill(210,120,60)
+                 rect(10,800,50,10)
+                if (px >= 10 && px <= 35 && py >= 800 && py <= 810 +25) {mc = 4}
+                
+                
+                }
+  
+  
+  if (mc === 4) {background(100,100,100)
+                
+                if (py +25 > 400) (py = 10)
+                fill(255,255,255)
+                 rect(px,py,20,20) 
+                
+                
+                
+               if (keyCode === UP_ARROW) {py = py -1}
+         if (keyCode === DOWN_ARROW) {py = py +1}
+         if (keyCode === LEFT_ARROW) {px = px -1}
+         if (keyCode === RIGHT_ARROW) {px = px +1
+                                      } 
+                
+                
+                mt = mt + muc     
+        if (mt === 200) {keyCode = 'q'
+                                                                                                                            mt = 0}
+                 if (lbr === 2)
+               {fill(255,0,0)
+                 rect(libx,liby,20,20)}
+                
+                
+                
+                
+                
+                
+                }
+  
+}
