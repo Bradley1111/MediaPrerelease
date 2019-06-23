@@ -3,7 +3,7 @@ let test;
 
 
 function preload() {
-test = loadImage('flower.jpg')
+test = loadImage('')
 
 
 }
