@@ -1,5 +1,5 @@
 
-let map;
+let m;
 wipeprogress = 650
 kpc = 0
 winstate = 0
