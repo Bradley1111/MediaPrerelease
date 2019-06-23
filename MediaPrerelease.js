@@ -5,7 +5,7 @@ kpc = 0
 winstate = 0
 function preload() {
 
-map = loadImage('Textures/M.jpg')
+map = loadImage('M.jpg')
 
 }
 
