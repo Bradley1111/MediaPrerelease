@@ -21,36 +21,7 @@ createCanvas(600,600);
 }
 
 function draw() {
-	if (winstate === 1) {
-image(mm,0,0)
-fill(55,55,55)
-rect(90,540,400,50) // progressbarbase
-fill(50,90,50)
-rect(100,550,wipeprogress / 2,30)//progressbardisplay
-
-if (keyCode === ENTER) {wipeprogress = wipeprogress + 0.5
-kpc = kpc + 10}//progressbar input
-
-
-
-if (kpc === 50) {keyCode = 'Q'
-kpc = 0}//progressbar inputstop timer
-
-
-if (wipeprogress === 760) {winstate = 1}
-
-
-
-
-	} //if winstate end
-
-
-
-
-
 	if (winstate === 0)  {
-
-
 image(m,0,0)
 fill(55,55,55)
 rect(90,540,400,50) // progressbarbase
@@ -72,7 +43,7 @@ if (wipeprogress === 760) {winstate = 1}
 
 
 
-}//if winstate end x2
+}//if winstate end
 
 
 
