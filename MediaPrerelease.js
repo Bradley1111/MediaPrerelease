@@ -28,7 +28,7 @@ rect(90,540,400,50) // progressbarbase
 fill(50,90,50)
 rect(100,550,wipeprogress / 2,30)//progressbardisplay
 
-if (keyCode === ENTER) {wipeprogress = wipeprogress + 0.3
+if (keyCode === ENTER) {wipeprogress = wipeprogress + 0.2
 kpc = kpc + 10}//progressbar input
 
 
