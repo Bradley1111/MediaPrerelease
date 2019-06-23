@@ -1,12 +1,15 @@
 
 let m;
+let mm;
+let mjs;
 wipeprogress = 5
 kpc = 0
 winstate = 0
 function preload() {
 
 m = loadImage('M.jpg')
-
+mm = loadImage('Mm.jpg')
+mjs = loadImage('MJS.jpg')
 }
 
 function setup() {
