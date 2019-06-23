@@ -19,7 +19,7 @@ createCanvas(600,600);
 
 function draw() {
 	if (winstate === 0)  {
-Image(map)
+Image(map,0,0)
 fill(55,55,55)
 rect(90,540,400,50) // progressbarbase
 fill(50,90,50)
