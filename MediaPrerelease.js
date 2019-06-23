@@ -1,6 +1,6 @@
 
 let m;
-wipeprogress = 650
+wipeprogress = 5
 kpc = 0
 winstate = 0
 function preload() {
